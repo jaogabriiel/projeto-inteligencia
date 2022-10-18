@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+:root { 
+    --fonte-digital: 'Share Tech Mono', Times, serif;
+    --fonte-titulo: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    --fonte--sub: 'Teko', Times, serif;
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+
+    --cor1: #012E40;
+    --cor2: #024959;
+    --cor3: #026773;
+    --cor4: #3CA6A6;
+    --cor5: #F2E3D5;
+}
+
+*{
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor5);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
+    padding: 10px;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: var(--fonte-titulo);
+    color: white;
+    font-size: 3em;
+    font-weight: normal;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.303);
+}
+
+header > p {
+    font-family: var(--fonte--sub);
+    font-size: 2em;
+    color: var(--cor1);
+}
+
+main {
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 1.3em;
+    border-radius: 5px 5px 10px 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.273);
+}
+
+h2 {
+    font-family: var(--fonte--sub);
+    font-size: 2.0em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
+div {
+    margin: auto;
+}
+
+main > p {
+    font-family: var(--fonte-padrao);
+    padding: 20px;
+}
+
+.sub {
+    margin-top: 20px;
+}
+
+ul {
+    margin-bottom: 20px;
+    font-family: var(--fonte-padrao);
+}
+
+.video {
+    position: relative;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 60%;
+}
+
+.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+nav > h3 {
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--cor2);
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1em;
+    color: var(--cor4);
+    padding: 5px;
+}
+
+a:hover {
+    background-color: var(--cor4);
+    color: var(--cor2);
+    border-radius: 3px;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: var(--cor2);
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    color: white;
+    padding: 5px;
+}
+
+
